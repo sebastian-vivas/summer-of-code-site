@@ -22,12 +22,12 @@ body {
 }
 
 h5 {
-  font-family: 'Poppins', sans-serif !important;
+  font-family: "Poppins", sans-serif !important;
   font-weight: 300 !important;
   text-align: center;
 }
 
-#portrait{
+#portrait {
   border-radius: 10px;
   border: none;
 }
@@ -48,14 +48,14 @@ h5 {
   margin-right: auto;
 }
 
-.center-images a{
+.center-images a {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
 }
 
-.side-by-side-images{
+.side-by-side-images {
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -63,11 +63,11 @@ h5 {
   margin-bottom: 30px;
 }
 
-.side-by-side-images a{
+.side-by-side-images a {
   width: 30%;
 }
 
-.two a{
+.two a {
   width: 45%;
 }
 
@@ -83,7 +83,7 @@ h1 {
 h2 {
   margin-top: 0px;
   margin-bottom: 16px;
-  font-family: 'Futura pt', sans-serif;
+  font-family: "Futura pt", sans-serif;
   color: #111111;
   font-size: 28px;
   line-height: 44px;
@@ -103,7 +103,7 @@ h3 {
 h4 {
   margin-top: 0px;
   margin-bottom: 12px;
-  font-family: 'Futura pt', sans-serif;
+  font-family: "Futura pt", sans-serif;
   color: #111111;
   font-size: 24px !important;
   line-height: 28px;
@@ -159,7 +159,7 @@ img {
 label {
   display: block;
   margin-bottom: 8px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #151515;
   font-size: 16px;
   line-height: 16px;
@@ -245,7 +245,7 @@ figcaption {
   padding-top: 128px;
   padding-bottom: 128px;
   background-color: #ffffff;
-  background-image: url('../images/grain-background.png');
+  background-image: url("../images/grain-background.png");
   background-position: 0px 0px;
   background-size: 50px;
   background-repeat: repeat;
@@ -258,7 +258,13 @@ figcaption {
 }
 
 .section.haze-gradient {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f3f3f7));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#fff),
+    to(#f3f3f7)
+  );
   background-image: linear-gradient(180deg, #fff, #f3f3f7);
 }
 
@@ -273,7 +279,7 @@ figcaption {
   -ms-grid-rows: auto auto;
   grid-template-rows: auto auto;
   background-color: #f3f3f7;
-  background-image: url('../images/HOMEPAGEportfolio.svg');
+  background-image: url("../images/HOMEPAGEportfolio.svg");
   background-position: 0px 0px;
   background-size: cover;
   background-attachment: scroll;
@@ -304,7 +310,7 @@ figcaption {
   padding-bottom: 0px;
   float: none;
   background-color: #ffffff;
-  background-image: url('../images/grain-background.png');
+  background-image: url("../images/grain-background.png");
   background-position: 0px 0px;
   background-size: 50px;
   background-repeat: repeat;
@@ -464,11 +470,15 @@ figcaption {
   border-radius: 20px;
   background-color: #e56161;
   box-shadow: 1px 1px 3px 0 #666;
-  -webkit-transition: background-color 400ms ease, border-color 400ms ease, box-shadow 400ms ease, -webkit-transform 400ms ease;
-  transition: background-color 400ms ease, border-color 400ms ease, box-shadow 400ms ease, -webkit-transform 400ms ease;
-  transition: background-color 400ms ease, border-color 400ms ease, transform 400ms ease, box-shadow 400ms ease;
-  transition: background-color 400ms ease, border-color 400ms ease, transform 400ms ease, box-shadow 400ms ease, -webkit-transform 400ms ease;
-  font-family: 'Poppins', sans-serif;
+  -webkit-transition: background-color 400ms ease, border-color 400ms ease,
+    box-shadow 400ms ease, -webkit-transform 400ms ease;
+  transition: background-color 400ms ease, border-color 400ms ease,
+    box-shadow 400ms ease, -webkit-transform 400ms ease;
+  transition: background-color 400ms ease, border-color 400ms ease,
+    transform 400ms ease, box-shadow 400ms ease;
+  transition: background-color 400ms ease, border-color 400ms ease,
+    transform 400ms ease, box-shadow 400ms ease, -webkit-transform 400ms ease;
+  font-family: "Poppins", sans-serif;
   color: #ffffff;
   font-size: 16px;
   line-height: 33px;
@@ -545,7 +555,7 @@ figcaption {
   width: 40px;
   height: 40px;
   padding: 8px;
-  background-image: url('../images/arrow-right-white.svg');
+  background-image: url("../images/arrow-right-white.svg");
   background-position: 50% 50%;
   background-size: 24px;
   background-repeat: no-repeat;
@@ -631,7 +641,7 @@ figcaption {
   border-radius: 6px;
   -webkit-transition: background-color 400ms ease;
   transition: background-color 400ms ease;
-  font-family: 'Futura pt', sans-serif;
+  font-family: "Futura pt", sans-serif;
   color: #111111;
   font-size: 16px;
   line-height: 36px;
@@ -812,7 +822,7 @@ figcaption {
 }
 
 .view-case-studies-link {
-  font-family: 'Futura pt', sans-serif;
+  font-family: "Futura pt", sans-serif;
   color: #ffffff;
   font-size: 16px;
   line-height: 33px;
@@ -1110,7 +1120,7 @@ figcaption {
   grid-template-columns: 1fr 1fr;
   -ms-grid-rows: auto auto;
   grid-template-rows: auto auto;
-  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg");
   background-position: 0px 0px;
   background-size: auto;
 }
@@ -1150,7 +1160,7 @@ figcaption {
 }
 
 .text-big.text-grey {
-  font-family: 'Poppins', sans-serif;;
+  font-family: "Poppins", sans-serif;
   color: #111111;
   font-size: 16px;
 }
@@ -1279,7 +1289,7 @@ figcaption {
 
 .sg-sidebar-link.w--current {
   background-color: rgba(0, 0, 0, 0.15);
-  background-image: url('../images/right-white.svg');
+  background-image: url("../images/right-white.svg");
   background-position: 94% 50%;
   background-size: 20px;
   background-repeat: no-repeat;
@@ -1485,8 +1495,10 @@ figcaption {
   border-color: #e3e3e3;
   border-radius: 6px;
   background-color: #f3f3f7;
-  -webkit-transition: color 400ms ease, background-color 400ms ease, border-color 400ms ease;
-  transition: color 400ms ease, background-color 400ms ease, border-color 400ms ease;
+  -webkit-transition: color 400ms ease, background-color 400ms ease,
+    border-color 400ms ease;
+  transition: color 400ms ease, background-color 400ms ease,
+    border-color 400ms ease;
 }
 
 .input:focus {
@@ -1599,10 +1611,14 @@ figcaption {
   -ms-flex-align: start;
   align-items: flex-start;
   border-radius: 12px;
-  -webkit-transition: box-shadow 400ms ease, background-color 400ms ease, -webkit-transform 400ms ease;
-  transition: box-shadow 400ms ease, background-color 400ms ease, -webkit-transform 400ms ease;
-  transition: transform 400ms ease, box-shadow 400ms ease, background-color 400ms ease;
-  transition: transform 400ms ease, box-shadow 400ms ease, background-color 400ms ease, -webkit-transform 400ms ease;
+  -webkit-transition: box-shadow 400ms ease, background-color 400ms ease,
+    -webkit-transform 400ms ease;
+  transition: box-shadow 400ms ease, background-color 400ms ease,
+    -webkit-transform 400ms ease;
+  transition: transform 400ms ease, box-shadow 400ms ease,
+    background-color 400ms ease;
+  transition: transform 400ms ease, box-shadow 400ms ease,
+    background-color 400ms ease, -webkit-transform 400ms ease;
   color: #574b8a;
   text-decoration: none;
 }
@@ -1620,7 +1636,7 @@ figcaption {
   margin-right: 16px;
   border-radius: 6px;
   background-color: red;
-  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1694,8 +1710,10 @@ figcaption {
   border-color: #e3e3e3;
   border-radius: 6px;
   background-color: #fff;
-  -webkit-transition: border-color 400ms ease, color 400ms ease, background-color 400ms ease;
-  transition: border-color 400ms ease, color 400ms ease, background-color 400ms ease;
+  -webkit-transition: border-color 400ms ease, color 400ms ease,
+    background-color 400ms ease;
+  transition: border-color 400ms ease, color 400ms ease,
+    background-color 400ms ease;
   font-family: Kalam, sans-serif;
   color: #574b8a;
   font-size: 14px;
@@ -1728,7 +1746,10 @@ figcaption {
   line-height: 20px;
   font-weight: 700;
   text-align: left;
-  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline !important;
 }
 
 .link-arrow {
@@ -1736,7 +1757,7 @@ figcaption {
   height: 23px;
   margin-bottom: -1px;
   margin-left: 0px;
-  background-image: url('../images/right-dark_1.svg');
+  background-image: url("../images/right-dark_1.svg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1746,7 +1767,7 @@ figcaption {
 .link-arrow.small-white {
   width: 17px;
   height: 17px;
-  background-image: url('../images/right-white_1.svg');
+  background-image: url("../images/right-white_1.svg");
 }
 
 .post-card {
@@ -1773,10 +1794,14 @@ figcaption {
   border-color: #e3e3e3;
   border-radius: 20px;
   background-color: #fff;
-  -webkit-transition: border-color 400ms ease, background-color 400ms ease, box-shadow 400ms ease, -webkit-transform 400ms ease;
-  transition: border-color 400ms ease, background-color 400ms ease, box-shadow 400ms ease, -webkit-transform 400ms ease;
-  transition: border-color 400ms ease, background-color 400ms ease, box-shadow 400ms ease, transform 400ms ease;
-  transition: border-color 400ms ease, background-color 400ms ease, box-shadow 400ms ease, transform 400ms ease, -webkit-transform 400ms ease;
+  -webkit-transition: border-color 400ms ease, background-color 400ms ease,
+    box-shadow 400ms ease, -webkit-transform 400ms ease;
+  transition: border-color 400ms ease, background-color 400ms ease,
+    box-shadow 400ms ease, -webkit-transform 400ms ease;
+  transition: border-color 400ms ease, background-color 400ms ease,
+    box-shadow 400ms ease, transform 400ms ease;
+  transition: border-color 400ms ease, background-color 400ms ease,
+    box-shadow 400ms ease, transform 400ms ease, -webkit-transform 400ms ease;
   color: #151515;
   text-decoration: none;
 }
@@ -1822,7 +1847,7 @@ figcaption {
   margin-bottom: 8px;
   border-radius: 10px;
   background-color: #f3f3f7;
-  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1865,7 +1890,7 @@ figcaption {
   margin-bottom: 8px;
   border-radius: 10px;
   background-color: #f3f3f7;
-  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2093,7 +2118,7 @@ figcaption {
   align-items: center;
   border-radius: 20px;
   background-color: #e56161;
-  font-family: 'Futura pt', sans-serif;
+  font-family: "Futura pt", sans-serif;
   color: #111111;
   font-size: 16px;
   line-height: 16px;
@@ -2350,13 +2375,13 @@ figcaption {
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
-  background-image: url('../images/check-circle-dark.svg');
+  background-image: url("../images/check-circle-dark.svg");
   background-position: 50% 50%;
   background-size: 20px;
 }
 
 .pricing-feature-icon.no {
-  background-image: url('../images/slash-dark.svg');
+  background-image: url("../images/slash-dark.svg");
   opacity: 0.33;
 }
 
@@ -2590,7 +2615,7 @@ figcaption {
 .text-emoji-1 {
   display: inline-block;
   width: 20px;
-  background-image: url('../images/emoji-point-right-icon_1emoji-point-right-icon.png');
+  background-image: url("../images/emoji-point-right-icon_1emoji-point-right-icon.png");
   background-position: 50% 50%;
   background-size: 16px;
   background-repeat: no-repeat;
@@ -2605,7 +2630,7 @@ figcaption {
 .text-emoji-2 {
   display: inline-block;
   width: 20px;
-  background-image: url('../images/emoji-hi-icon_1emoji-hi-icon.png');
+  background-image: url("../images/emoji-hi-icon_1emoji-hi-icon.png");
   background-position: 50% 50%;
   background-size: 16px;
   background-repeat: no-repeat;
@@ -2615,7 +2640,7 @@ figcaption {
 .text-emoji-4 {
   display: inline-block;
   width: 20px;
-  background-image: url('../images/emoji-boom-icon_1emoji-boom-icon.png');
+  background-image: url("../images/emoji-boom-icon_1emoji-boom-icon.png");
   background-position: 50% 50%;
   background-size: 16px;
   background-repeat: no-repeat;
@@ -2949,7 +2974,8 @@ figcaption {
   -webkit-transition: opacity 400ms ease, -webkit-transform 400ms ease;
   transition: opacity 400ms ease, -webkit-transform 400ms ease;
   transition: opacity 400ms ease, transform 400ms ease;
-  transition: opacity 400ms ease, transform 400ms ease, -webkit-transform 400ms ease;
+  transition: opacity 400ms ease, transform 400ms ease,
+    -webkit-transform 400ms ease;
 }
 
 .logo-link:hover {
@@ -3046,7 +3072,8 @@ figcaption {
   -webkit-transition: box-shadow 400ms ease, -webkit-transform 400ms ease;
   transition: box-shadow 400ms ease, -webkit-transform 400ms ease;
   transition: box-shadow 400ms ease, transform 400ms ease;
-  transition: box-shadow 400ms ease, transform 400ms ease, -webkit-transform 400ms ease;
+  transition: box-shadow 400ms ease, transform 400ms ease,
+    -webkit-transform 400ms ease;
   text-decoration: none;
 }
 
@@ -3322,7 +3349,8 @@ figcaption {
   border-color: #e3e3e3;
   border-radius: 8px;
   background-color: #fff;
-  -webkit-transition: color 400ms ease, border-color 400ms ease, box-shadow 400ms ease;
+  -webkit-transition: color 400ms ease, border-color 400ms ease,
+    box-shadow 400ms ease;
   transition: color 400ms ease, border-color 400ms ease, box-shadow 400ms ease;
   font-family: Roboto, sans-serif;
   color: #151515;
@@ -3445,7 +3473,7 @@ figcaption {
 
 .faq-nav-link.w--current {
   padding-left: 36px;
-  background-image: url('../images/right-dark_1.svg');
+  background-image: url("../images/right-dark_1.svg");
   background-position: 8px 50%;
   background-size: 20px;
   background-repeat: no-repeat;
@@ -3622,10 +3650,14 @@ figcaption {
   border-color: #e3e3e3;
   border-radius: 20px;
   background-color: #fff;
-  -webkit-transition: box-shadow 400ms ease, border-color 400ms ease, -webkit-transform 400ms ease;
-  transition: box-shadow 400ms ease, border-color 400ms ease, -webkit-transform 400ms ease;
-  transition: box-shadow 400ms ease, border-color 400ms ease, transform 400ms ease;
-  transition: box-shadow 400ms ease, border-color 400ms ease, transform 400ms ease, -webkit-transform 400ms ease;
+  -webkit-transition: box-shadow 400ms ease, border-color 400ms ease,
+    -webkit-transform 400ms ease;
+  transition: box-shadow 400ms ease, border-color 400ms ease,
+    -webkit-transform 400ms ease;
+  transition: box-shadow 400ms ease, border-color 400ms ease,
+    transform 400ms ease;
+  transition: box-shadow 400ms ease, border-color 400ms ease,
+    transform 400ms ease, -webkit-transform 400ms ease;
   color: #151515;
 }
 
@@ -3656,10 +3688,14 @@ figcaption {
   -ms-flex: 270px;
   flex: 270px;
   border-radius: 8px;
-  -webkit-transition: background-color 400ms ease, box-shadow 400ms ease, -webkit-transform 400ms ease;
-  transition: background-color 400ms ease, box-shadow 400ms ease, -webkit-transform 400ms ease;
-  transition: transform 400ms ease, background-color 400ms ease, box-shadow 400ms ease;
-  transition: transform 400ms ease, background-color 400ms ease, box-shadow 400ms ease, -webkit-transform 400ms ease;
+  -webkit-transition: background-color 400ms ease, box-shadow 400ms ease,
+    -webkit-transform 400ms ease;
+  transition: background-color 400ms ease, box-shadow 400ms ease,
+    -webkit-transform 400ms ease;
+  transition: transform 400ms ease, background-color 400ms ease,
+    box-shadow 400ms ease;
+  transition: transform 400ms ease, background-color 400ms ease,
+    box-shadow 400ms ease, -webkit-transform 400ms ease;
   color: #151515;
   text-align: center;
 }
@@ -3752,7 +3788,7 @@ figcaption {
   margin-right: 15px;
   margin-left: 15px;
   border-radius: 10px;
-  background-image: url('../images/christina-wocintechchat-com-YCrgxs3e9lY-unsplash.jpg');
+  background-image: url("../images/christina-wocintechchat-com-YCrgxs3e9lY-unsplash.jpg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3989,7 +4025,7 @@ figcaption {
   display: block;
   width: 24px;
   height: 24px;
-  background-image: url('../images/check-circle-dark.svg');
+  background-image: url("../images/check-circle-dark.svg");
   background-position: 50% 50%;
   background-size: contain;
 }
@@ -4198,7 +4234,7 @@ figcaption {
   height: 16px;
   margin-right: 1px;
   margin-left: 1px;
-  background-image: url('../images/star-filled-color.svg');
+  background-image: url("../images/star-filled-color.svg");
   background-position: 50% 50%;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -4453,7 +4489,7 @@ figcaption {
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
-  background-image: url('../images/pen-white.svg');
+  background-image: url("../images/pen-white.svg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -4473,7 +4509,7 @@ figcaption {
   top: 48px;
   width: 56px;
   height: 56px;
-  background-image: url('../images/quote-left-dark.svg');
+  background-image: url("../images/quote-left-dark.svg");
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -4485,7 +4521,7 @@ figcaption {
   top: auto;
   right: 48px;
   bottom: 48px;
-  background-image: url('../images/quote-right-dark.svg');
+  background-image: url("../images/quote-right-dark.svg");
 }
 
 .review-v3 {
@@ -4629,7 +4665,7 @@ figcaption {
   bottom: auto;
   width: 297px;
   height: 118px;
-  background-image: url('../images/circle-pattern-white.svg');
+  background-image: url("../images/circle-pattern-white.svg");
   background-position: 0% 0%;
   background-size: 12px;
   opacity: 0.12;
@@ -4698,7 +4734,8 @@ figcaption {
 .footer-grid {
   position: relative;
   grid-column-gap: 2px;
-  grid-template-areas: ". . ."
+  grid-template-areas:
+    ". . ."
     ". Area-2 Area";
 }
 
@@ -4712,7 +4749,7 @@ figcaption {
   margin-right: 2px;
   margin-left: 2px;
   background-color: transparent;
-  background-image: url('../images/right-white.svg');
+  background-image: url("../images/right-white.svg");
   background-position: 50% 50%;
   background-size: 16px;
   opacity: 0.3;
@@ -4745,7 +4782,7 @@ figcaption {
 .info-icon {
   width: 100%;
   height: 100%;
-  background-image: url('../images/info-dark.svg');
+  background-image: url("../images/info-dark.svg");
   background-position: 50% 50%;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -4915,7 +4952,7 @@ figcaption {
   -ms-flex-align: start;
   align-items: flex-start;
   border-radius: 50%;
-  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -5055,7 +5092,7 @@ figcaption {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 10px;
-  background-image: url('../images/christina-wocintechchat-com-tKYfcTaXsf0-unsplash.jpg');
+  background-image: url("../images/christina-wocintechchat-com-tKYfcTaXsf0-unsplash.jpg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -5136,7 +5173,7 @@ figcaption {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: url('../images/right-dark.svg');
+  background-image: url("../images/right-dark.svg");
   background-position: 50% 50%;
   background-size: 100%;
   opacity: 0.5;
@@ -5181,10 +5218,14 @@ figcaption {
   border-color: #e3e3e3;
   border-radius: 20px;
   background-color: #fff;
-  -webkit-transition: box-shadow 400ms ease, border-color 400ms ease, -webkit-transform 400ms ease;
-  transition: box-shadow 400ms ease, border-color 400ms ease, -webkit-transform 400ms ease;
-  transition: transform 400ms ease, box-shadow 400ms ease, border-color 400ms ease;
-  transition: transform 400ms ease, box-shadow 400ms ease, border-color 400ms ease, -webkit-transform 400ms ease;
+  -webkit-transition: box-shadow 400ms ease, border-color 400ms ease,
+    -webkit-transform 400ms ease;
+  transition: box-shadow 400ms ease, border-color 400ms ease,
+    -webkit-transform 400ms ease;
+  transition: transform 400ms ease, box-shadow 400ms ease,
+    border-color 400ms ease;
+  transition: transform 400ms ease, box-shadow 400ms ease,
+    border-color 400ms ease, -webkit-transform 400ms ease;
   text-align: center;
 }
 
@@ -5203,7 +5244,7 @@ figcaption {
   height: 232px;
   margin-bottom: 16px;
   border-radius: 10px;
-  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -5218,7 +5259,7 @@ figcaption {
   z-index: 2;
   display: none;
   border-radius: 50%;
-  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg");
   background-position: 50% 0px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -5439,7 +5480,7 @@ figcaption {
   align-items: center;
   border: 8px solid #fff;
   border-radius: 20px;
-  background-image: url('../images/christina-wocintechchat-com-tKYfcTaXsf0-unsplash.jpg');
+  background-image: url("../images/christina-wocintechchat-com-tKYfcTaXsf0-unsplash.jpg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -5485,26 +5526,26 @@ figcaption {
 .gallery-photo {
   position: relative;
   border-radius: 12px;
-  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .gallery-photo._1 {
-  background-image: url('../images/content-pixie-GAOlUc5TVXY-unsplash.jpg');
+  background-image: url("../images/content-pixie-GAOlUc5TVXY-unsplash.jpg");
 }
 
 .gallery-photo._2 {
-  background-image: url('../images/christina-wocintechchat-com-NDoVgcS_lZM-unsplash.jpg');
+  background-image: url("../images/christina-wocintechchat-com-NDoVgcS_lZM-unsplash.jpg");
 }
 
 .gallery-photo._4 {
-  background-image: url('../images/christina-wocintechchat-com-tKYfcTaXsf0-unsplash.jpg');
+  background-image: url("../images/christina-wocintechchat-com-tKYfcTaXsf0-unsplash.jpg");
 }
 
 .gallery-photo._3 {
-  background-image: url('../images/arlington-research-BQTBlCxmPJM-unsplash.jpg');
+  background-image: url("../images/arlington-research-BQTBlCxmPJM-unsplash.jpg");
 }
 
 .gallery-hover {
@@ -5539,7 +5580,7 @@ figcaption {
   width: 16px;
   height: 16px;
   margin-right: 4px;
-  background-image: url('../images/search-dark.svg');
+  background-image: url("../images/search-dark.svg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -5672,7 +5713,7 @@ figcaption {
   border: 10px solid #fff;
   border-radius: 20px;
   background-color: #574b8a;
-  background-image: url('../images/content-pixie-GAOlUc5TVXY-unsplash.jpg');
+  background-image: url("../images/content-pixie-GAOlUc5TVXY-unsplash.jpg");
   background-size: cover;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
 }
@@ -5706,7 +5747,7 @@ figcaption {
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   border-radius: 10px;
-  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -5854,7 +5895,7 @@ figcaption {
   height: 20px;
   border-radius: 50%;
   background-color: rgba(0, 0, 0, 0.2);
-  background-image: url('../images/x-white.svg');
+  background-image: url("../images/x-white.svg");
   background-position: 50% 50%;
   background-size: 14px;
   background-repeat: no-repeat;
@@ -5916,7 +5957,7 @@ figcaption {
   flex: 0 0 auto;
   border-radius: 16px;
   background-color: #e3e3e3;
-  background-image: url('../images/home-color.svg');
+  background-image: url("../images/home-color.svg");
   background-position: 8px 50%;
   background-size: 16px;
   background-repeat: no-repeat;
@@ -6048,7 +6089,7 @@ figcaption {
   height: 44px;
   border-radius: 50%;
   background-color: #e56161;
-  background-image: url('../images/arrow-up-white.svg');
+  background-image: url("../images/arrow-up-white.svg");
   background-position: 50% 50%;
   background-repeat: no-repeat;
   -webkit-transition: background-color 300ms ease;
@@ -6059,7 +6100,7 @@ figcaption {
 
 .top-button:hover {
   background-color: #f8bb4b;
-  background-image: url('../images/arrow-up-white.svg');
+  background-image: url("../images/arrow-up-white.svg");
   background-position: 50% 50%;
   background-size: auto;
   background-repeat: no-repeat;
@@ -6152,7 +6193,7 @@ figcaption {
   height: 48px;
   border-radius: 50%;
   background-color: #ffa949;
-  background-image: url('../images/file-text-white.svg');
+  background-image: url("../images/file-text-white.svg");
   background-position: 50% 50%;
   background-size: 24px;
   background-repeat: no-repeat;
@@ -6189,7 +6230,7 @@ figcaption {
 }
 
 .page-heading {
-  font-family: 'Futura pt', sans-serif;
+  font-family: "Futura pt", sans-serif;
   color: #111111;
   text-align: center;
   letter-spacing: 1.5px;
@@ -6365,7 +6406,7 @@ figcaption {
   width: 14px;
   height: 14px;
   margin-right: 6px;
-  background-image: url('../images/star-filled-white.svg');
+  background-image: url("../images/star-filled-white.svg");
   background-position: 50% 50%;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -6477,14 +6518,14 @@ figcaption {
 
 .footer {
   background-color: #ffffff;
-  background-image: url('../images/grain-background.png');
+  background-image: url("../images/grain-background.png");
   background-position: 0px 0px;
   background-size: 50px;
   color: #fff;
 }
 
 .footer.mobile-footer {
-  background-image: url('../images/wave-7.svg');
+  background-image: url("../images/wave-7.svg");
   background-position: 50% 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -6653,7 +6694,7 @@ figcaption {
   height: 48px;
   border-radius: 50%;
   background-color: #ffa949;
-  background-image: url('../images/play-white.svg');
+  background-image: url("../images/play-white.svg");
   background-position: 50% 50%;
   background-size: 20px;
   background-repeat: no-repeat;
@@ -6689,7 +6730,7 @@ figcaption {
 
 .video-button-time {
   padding-right: 16px;
-  background-image: url('../images/clock-white.svg');
+  background-image: url("../images/clock-white.svg");
   background-position: 100% 50%;
   background-size: 12px;
   background-repeat: no-repeat;
@@ -6996,7 +7037,7 @@ figcaption {
 .question-icon {
   width: 24px;
   height: 24px;
-  background-image: url('../images/help-circle-dark.svg');
+  background-image: url("../images/help-circle-dark.svg");
   background-position: 0px 0px;
   background-size: cover;
 }
@@ -7006,7 +7047,7 @@ figcaption {
   height: 23px;
   margin-bottom: -1px;
   margin-left: 3px;
-  background-image: url('../images/arrow-right-dark.svg');
+  background-image: url("../images/arrow-right-dark.svg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -7327,31 +7368,67 @@ figcaption {
   top: 0px;
   right: 0px;
   bottom: 0px;
-  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .hero-slide-image._1 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(29, 24, 51, 0.3)), to(rgba(29, 24, 51, 0.3))), url('../images/tobias-nii-kwatei-quartey-ew-akplv348-unsplash.jpg');
-  background-image: linear-gradient(180deg, rgba(29, 24, 51, 0.3), rgba(29, 24, 51, 0.3)), url('../images/tobias-nii-kwatei-quartey-ew-akplv348-unsplash.jpg');
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(29, 24, 51, 0.3)),
+      to(rgba(29, 24, 51, 0.3))
+    ),
+    url("../images/tobias-nii-kwatei-quartey-ew-akplv348-unsplash.jpg");
+  background-image: linear-gradient(
+      180deg,
+      rgba(29, 24, 51, 0.3),
+      rgba(29, 24, 51, 0.3)
+    ),
+    url("../images/tobias-nii-kwatei-quartey-ew-akplv348-unsplash.jpg");
   background-position: 0px 0px, 50% 100%;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
 }
 
 .hero-slide-image._2 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 19, 36, 0.5)), to(rgba(22, 19, 36, 0.5))), url('../images/christina-wocintechchat-com-tKYfcTaXsf0-unsplash.jpg');
-  background-image: linear-gradient(180deg, rgba(22, 19, 36, 0.5), rgba(22, 19, 36, 0.5)), url('../images/christina-wocintechchat-com-tKYfcTaXsf0-unsplash.jpg');
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(22, 19, 36, 0.5)),
+      to(rgba(22, 19, 36, 0.5))
+    ),
+    url("../images/christina-wocintechchat-com-tKYfcTaXsf0-unsplash.jpg");
+  background-image: linear-gradient(
+      180deg,
+      rgba(22, 19, 36, 0.5),
+      rgba(22, 19, 36, 0.5)
+    ),
+    url("../images/christina-wocintechchat-com-tKYfcTaXsf0-unsplash.jpg");
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
 }
 
 .hero-slide-image._3 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 19, 36, 0.5)), to(rgba(22, 19, 36, 0.5))), url('../images/christina-wocintechchat-com-NDoVgcS_lZM-unsplash.jpg');
-  background-image: linear-gradient(180deg, rgba(22, 19, 36, 0.5), rgba(22, 19, 36, 0.5)), url('../images/christina-wocintechchat-com-NDoVgcS_lZM-unsplash.jpg');
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(22, 19, 36, 0.5)),
+      to(rgba(22, 19, 36, 0.5))
+    ),
+    url("../images/christina-wocintechchat-com-NDoVgcS_lZM-unsplash.jpg");
+  background-image: linear-gradient(
+      180deg,
+      rgba(22, 19, 36, 0.5),
+      rgba(22, 19, 36, 0.5)
+    ),
+    url("../images/christina-wocintechchat-com-NDoVgcS_lZM-unsplash.jpg");
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
@@ -7476,7 +7553,7 @@ figcaption {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 20px;
-  background-image: url('../images/christina-wocintechchat-com-YCrgxs3e9lY-unsplash.jpg');
+  background-image: url("../images/christina-wocintechchat-com-YCrgxs3e9lY-unsplash.jpg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -7543,9 +7620,9 @@ figcaption {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  -webkit-transition: color 400ms cubic-bezier(.165, .84, .44, 1);
-  transition: color 400ms cubic-bezier(.165, .84, .44, 1);
-  font-family: 'Futura pt', sans-serif;
+  -webkit-transition: color 400ms cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: color 400ms cubic-bezier(0.165, 0.84, 0.44, 1);
+  font-family: "Futura pt", sans-serif;
   color: #d76864;
   font-size: 16px;
   line-height: 33px;
@@ -7607,7 +7684,7 @@ figcaption {
   height: 128px;
   margin-bottom: 16px;
   border-radius: 50%;
-  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -7802,14 +7879,18 @@ figcaption {
   border: 1px none transparent;
   border-radius: 6px;
   background-color: #f3f3f7;
-  background-image: url('../images/search-dark.svg');
+  background-image: url("../images/search-dark.svg");
   background-position: 50% 50%;
   background-size: 20px;
   background-repeat: no-repeat;
-  -webkit-transition: background-color 400ms ease, border-color 400ms ease, box-shadow 400ms ease, -webkit-transform 400ms ease;
-  transition: background-color 400ms ease, border-color 400ms ease, box-shadow 400ms ease, -webkit-transform 400ms ease;
-  transition: background-color 400ms ease, border-color 400ms ease, transform 400ms ease, box-shadow 400ms ease;
-  transition: background-color 400ms ease, border-color 400ms ease, transform 400ms ease, box-shadow 400ms ease, -webkit-transform 400ms ease;
+  -webkit-transition: background-color 400ms ease, border-color 400ms ease,
+    box-shadow 400ms ease, -webkit-transform 400ms ease;
+  transition: background-color 400ms ease, border-color 400ms ease,
+    box-shadow 400ms ease, -webkit-transform 400ms ease;
+  transition: background-color 400ms ease, border-color 400ms ease,
+    transform 400ms ease, box-shadow 400ms ease;
+  transition: background-color 400ms ease, border-color 400ms ease,
+    transform 400ms ease, box-shadow 400ms ease, -webkit-transform 400ms ease;
   font-family: Roboto, sans-serif;
   color: #fff;
   font-size: 17px;
@@ -7897,14 +7978,18 @@ figcaption {
   border: 2px solid #fff;
   border-radius: 50%;
   background-color: rgba(0, 0, 0, 0.3);
-  background-image: url('../images/x-white_1.svg');
+  background-image: url("../images/x-white_1.svg");
   background-position: 50% 50%;
   background-size: 20px;
   background-repeat: no-repeat;
-  -webkit-transition: border-color 400ms ease, background-color 400ms ease, -webkit-transform 400ms ease;
-  transition: border-color 400ms ease, background-color 400ms ease, -webkit-transform 400ms ease;
-  transition: transform 400ms ease, border-color 400ms ease, background-color 400ms ease;
-  transition: transform 400ms ease, border-color 400ms ease, background-color 400ms ease, -webkit-transform 400ms ease;
+  -webkit-transition: border-color 400ms ease, background-color 400ms ease,
+    -webkit-transform 400ms ease;
+  transition: border-color 400ms ease, background-color 400ms ease,
+    -webkit-transform 400ms ease;
+  transition: transform 400ms ease, border-color 400ms ease,
+    background-color 400ms ease;
+  transition: transform 400ms ease, border-color 400ms ease,
+    background-color 400ms ease, -webkit-transform 400ms ease;
   cursor: pointer;
 }
 
@@ -7938,10 +8023,14 @@ figcaption {
   border-color: #e3e3e3;
   border-radius: 20px;
   background-color: #fff;
-  -webkit-transition: border-color 400ms ease, box-shadow 400ms ease, -webkit-transform 400ms ease;
-  transition: border-color 400ms ease, box-shadow 400ms ease, -webkit-transform 400ms ease;
-  transition: transform 400ms ease, border-color 400ms ease, box-shadow 400ms ease;
-  transition: transform 400ms ease, border-color 400ms ease, box-shadow 400ms ease, -webkit-transform 400ms ease;
+  -webkit-transition: border-color 400ms ease, box-shadow 400ms ease,
+    -webkit-transform 400ms ease;
+  transition: border-color 400ms ease, box-shadow 400ms ease,
+    -webkit-transform 400ms ease;
+  transition: transform 400ms ease, border-color 400ms ease,
+    box-shadow 400ms ease;
+  transition: transform 400ms ease, border-color 400ms ease,
+    box-shadow 400ms ease, -webkit-transform 400ms ease;
   color: #151515;
   text-align: center;
   text-decoration: none;
@@ -7961,7 +8050,7 @@ figcaption {
   height: 254px;
   max-height: 20vw;
   border-radius: 10px;
-  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -7969,7 +8058,7 @@ figcaption {
 
 .work-card-heading {
   margin: 16px 12px 4px;
-  font-family: 'Futura pt', sans-serif;
+  font-family: "Futura pt", sans-serif;
   color: #111111;
   text-align: center;
   letter-spacing: 1px;
@@ -8034,7 +8123,7 @@ figcaption {
   top: 0%;
   right: 0%;
   bottom: 0%;
-  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -8069,7 +8158,7 @@ figcaption {
   border: 8px solid #fff;
   border-radius: 20px;
   background-color: #ffffff;
-  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg");
   background-size: cover;
   background-repeat: no-repeat;
   box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.15);
@@ -8099,7 +8188,7 @@ figcaption {
   margin-right: auto;
   margin-left: auto;
   float: left;
-  font-family: 'Poppins', sans-serif;;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 400;
   text-transform: none;
@@ -8144,7 +8233,7 @@ figcaption {
 
 .work-heading {
   margin-bottom: 24px;
-  font-family: 'Futura pt', sans-serif;
+  font-family: "Futura pt", sans-serif;
   color: #111111;
   font-size: 36px;
   text-align: left;
@@ -8173,10 +8262,14 @@ figcaption {
   border-color: #e3e3e3;
   border-radius: 20px;
   background-color: #fff;
-  -webkit-transition: border-color 400ms ease, background-color 400ms ease, box-shadow 400ms ease, -webkit-transform 400ms ease;
-  transition: border-color 400ms ease, background-color 400ms ease, box-shadow 400ms ease, -webkit-transform 400ms ease;
-  transition: border-color 400ms ease, background-color 400ms ease, box-shadow 400ms ease, transform 400ms ease;
-  transition: border-color 400ms ease, background-color 400ms ease, box-shadow 400ms ease, transform 400ms ease, -webkit-transform 400ms ease;
+  -webkit-transition: border-color 400ms ease, background-color 400ms ease,
+    box-shadow 400ms ease, -webkit-transform 400ms ease;
+  transition: border-color 400ms ease, background-color 400ms ease,
+    box-shadow 400ms ease, -webkit-transform 400ms ease;
+  transition: border-color 400ms ease, background-color 400ms ease,
+    box-shadow 400ms ease, transform 400ms ease;
+  transition: border-color 400ms ease, background-color 400ms ease,
+    box-shadow 400ms ease, transform 400ms ease, -webkit-transform 400ms ease;
   color: #151515;
   text-decoration: none;
 }
@@ -8213,7 +8306,7 @@ figcaption {
   align-items: center;
   border-radius: 10px;
   background-color: #f3f3f7;
-  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -8296,7 +8389,7 @@ figcaption {
   top: 48px;
   width: 56px;
   height: 56px;
-  background-image: url('../images/quote-left-white.svg');
+  background-image: url("../images/quote-left-white.svg");
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -8308,7 +8401,7 @@ figcaption {
   top: auto;
   right: 48px;
   bottom: 48px;
-  background-image: url('../images/quote-right-white.svg');
+  background-image: url("../images/quote-right-white.svg");
 }
 
 .statement {
@@ -8323,7 +8416,7 @@ figcaption {
   margin-bottom: 16px;
   padding-top: 0px;
   padding-bottom: 5px;
-  font-family: 'Futura pt', sans-serif;
+  font-family: "Futura pt", sans-serif;
   color: #ffffff;
   letter-spacing: 1.5px;
   -o-object-fit: fill;
@@ -8395,7 +8488,7 @@ figcaption {
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
   flex: 0 auto;
-  font-family: 'Futura pt', sans-serif;
+  font-family: "Futura pt", sans-serif;
   color: #ffffff;
   font-size: 16px;
   line-height: 56px;
@@ -8522,8 +8615,10 @@ figcaption {
   border: 4px solid #fff;
   border-radius: 50%;
   background-color: rgba(87, 75, 138, 0.3);
-  -webkit-transition: box-shadow 400ms ease, border-color 400ms ease, background-color 400ms ease;
-  transition: box-shadow 400ms ease, border-color 400ms ease, background-color 400ms ease;
+  -webkit-transition: box-shadow 400ms ease, border-color 400ms ease,
+    background-color 400ms ease;
+  transition: box-shadow 400ms ease, border-color 400ms ease,
+    background-color 400ms ease;
 }
 
 .side-nav-link:hover {
@@ -8534,8 +8629,10 @@ figcaption {
   width: 16px;
   height: 16px;
   background-color: #574b8a;
-  -webkit-transition: border-radius 400ms ease, border-color 400ms ease, background-color 400ms ease;
-  transition: border-radius 400ms ease, border-color 400ms ease, background-color 400ms ease;
+  -webkit-transition: border-radius 400ms ease, border-color 400ms ease,
+    background-color 400ms ease;
+  transition: border-radius 400ms ease, border-color 400ms ease,
+    background-color 400ms ease;
 }
 
 .side-nav-tooltip {
@@ -8608,7 +8705,7 @@ figcaption {
   padding-top: 0px;
   padding-left: 0px;
   background-color: #ffffff;
-  font-family: 'Poppins', sans-serif;;
+  font-family: "Poppins", sans-serif;
   color: #111111;
   font-size: 20px;
   font-weight: 500;
@@ -8619,7 +8716,7 @@ figcaption {
 .text-block-4 {
   margin-right: auto;
   margin-left: auto;
-  font-family: 'Futura pt', sans-serif;
+  font-family: "Futura pt", sans-serif;
   color: #111111;
   font-size: 18px;
   font-weight: 500;
@@ -8652,7 +8749,7 @@ figcaption {
 .text-span-3 {
   width: 600px;
   font-size: 42px;
-  font-family: 'Futura pt', sans-serif;
+  font-family: "Futura pt", sans-serif;
   font-weight: 800;
 }
 
@@ -8664,13 +8761,13 @@ figcaption {
 }
 
 .heading-3 {
-  font-family: 'Futura pt', sans-serif;
+  font-family: "Futura pt", sans-serif;
 }
 
 .heading-4 {
   position: static;
   padding-top: 81px;
-  font-family: 'Futura pt', sans-serif;
+  font-family: "Futura pt", sans-serif;
   color: #111111;
   font-size: 24px;
   line-height: 33px;
@@ -8734,7 +8831,7 @@ figcaption {
   padding-right: 10px;
   padding-left: 10px;
   border-bottom: 1px none #e56161;
-  font-family: 'Futura pt', sans-serif;
+  font-family: "Futura pt", sans-serif;
   color: #111111;
   font-size: 16px;
   font-weight: 500;
@@ -8754,7 +8851,7 @@ figcaption {
 .nav-link-3 {
   padding-right: 10px;
   padding-left: 10px;
-  font-family: 'Futura pt', sans-serif;
+  font-family: "Futura pt", sans-serif;
   color: #111111;
   font-size: 16px;
 }
@@ -8772,7 +8869,7 @@ figcaption {
   padding-right: 10px;
   padding-left: 10px;
   border-bottom: 5px none #e56161;
-  font-family: 'Futura pt', sans-serif;
+  font-family: "Futura pt", sans-serif;
   color: #111111;
   font-size: 16px;
 }
@@ -8807,21 +8904,21 @@ figcaption {
   -ms-flex-item-align: auto;
   -ms-grid-row-align: auto;
   align-self: auto;
-  font-family: 'Futura pt', sans-serif;
+  font-family: "Futura pt", sans-serif;
   color: #ffffff;
   font-size: 20px;
   letter-spacing: 1px;
 }
 
 .text-block-7 {
-  font-family: 'Poppins', sans-serif;;
+  font-family: "Poppins", sans-serif;
   color: #111111;
   font-size: 16px;
   letter-spacing: 1px;
 }
 
 .heading-5 {
-  font-family: 'Futura pt', sans-serif;
+  font-family: "Futura pt", sans-serif;
   color: #151515;
   font-weight: 500;
   letter-spacing: 1.5px;
@@ -8845,7 +8942,7 @@ figcaption {
   padding-right: 10px;
   padding-left: 10px;
   border-bottom: 5px none #e56161;
-  font-family: 'Futura pt', sans-serif;
+  font-family: "Futura pt", sans-serif;
   color: #111111;
   font-size: 16px;
 }
@@ -8878,7 +8975,7 @@ figcaption {
 .nav-link-6 {
   padding-right: 10px;
   padding-left: 10px;
-  font-family: 'Futura pt', sans-serif;
+  font-family: "Futura pt", sans-serif;
   color: #111111;
   font-size: 16px;
 }
@@ -8896,7 +8993,7 @@ figcaption {
   padding-right: 10px;
   padding-left: 10px;
   border-bottom: 1px none #e56161;
-  font-family: 'Futura pt', sans-serif;
+  font-family: "Futura pt", sans-serif;
   color: #111111;
   font-size: 16px;
   font-weight: 500;
@@ -8941,7 +9038,7 @@ figcaption {
 }
 
 .work-heading-2 {
-  font-family: 'Futura pt', sans-serif;
+  font-family: "Futura pt", sans-serif;
   color: #111111;
   font-size: 36px;
   font-weight: 500;
@@ -8978,7 +9075,7 @@ figcaption {
   align-items: center;
   border-radius: 20px;
   background-color: #d76864;
-  font-family: 'Futura pt', sans-serif;
+  font-family: "Futura pt", sans-serif;
   color: #ffffff;
   font-size: 16px;
   line-height: 16px;
@@ -9050,7 +9147,7 @@ figcaption {
   border: 8px none #fff;
   border-radius: 0px;
   background-color: #ffffff;
-  background-image: url('../images/mockups_kaus.png');
+  background-image: url("../images/mockups_kaus.png");
   background-position: 50% 50%;
   background-size: 60%;
   background-repeat: no-repeat;
@@ -9058,7 +9155,7 @@ figcaption {
   object-fit: contain;
 }
 
-.work-preview-3{
+.work-preview-3 {
   position: static;
   z-index: 2;
   display: inline-block;
@@ -9084,7 +9181,7 @@ figcaption {
   border: 8px none #fff;
   border-radius: 0px;
   background-color: #ffffff;
-  background-image: url('../images/headercollegepathcasestudy.png');
+  background-image: url("../images/headercollegepathcasestudy.png");
   background-position: 50% 50%;
   background-size: 70%;
   background-repeat: no-repeat;
@@ -9092,7 +9189,7 @@ figcaption {
   object-fit: contain;
 }
 
-.work-preview-4{
+.work-preview-4 {
   position: static;
   z-index: 2;
   display: inline-block;
@@ -9118,7 +9215,7 @@ figcaption {
   border: 8px none #fff;
   border-radius: 0px;
   background-color: #ffffff;
-  background-image: url('../images/pwm_mockup_responsivescreens.png');
+  background-image: url("../images/pwm_mockup_responsivescreens.png");
   background-position: 50% 50%;
   background-size: 70%;
   background-repeat: no-repeat;
@@ -9126,7 +9223,7 @@ figcaption {
   object-fit: contain;
 }
 
-.work-preview-5{
+.work-preview-5 {
   position: static;
   z-index: 2;
   display: inline-block;
@@ -9236,10 +9333,14 @@ figcaption {
   border-color: #e3e3e3;
   border-radius: 15px;
   background-color: #fff;
-  -webkit-transition: box-shadow 400ms ease, border-color 400ms ease, -webkit-transform 400ms ease;
-  transition: box-shadow 400ms ease, border-color 400ms ease, -webkit-transform 400ms ease;
-  transition: box-shadow 400ms ease, border-color 400ms ease, transform 400ms ease;
-  transition: box-shadow 400ms ease, border-color 400ms ease, transform 400ms ease, -webkit-transform 400ms ease;
+  -webkit-transition: box-shadow 400ms ease, border-color 400ms ease,
+    -webkit-transform 400ms ease;
+  transition: box-shadow 400ms ease, border-color 400ms ease,
+    -webkit-transform 400ms ease;
+  transition: box-shadow 400ms ease, border-color 400ms ease,
+    transform 400ms ease;
+  transition: box-shadow 400ms ease, border-color 400ms ease,
+    transform 400ms ease, -webkit-transform 400ms ease;
   -o-object-fit: fill;
   object-fit: fill;
 }
@@ -9275,7 +9376,7 @@ figcaption {
 .heading-6 {
   margin: 16px 12px 4px;
   padding-left: 38px;
-  font-family: 'Futura pt', sans-serif;
+  font-family: "Futura pt", sans-serif;
   color: #111111;
   font-size: 16px;
   line-height: 33px;
@@ -9403,10 +9504,14 @@ figcaption {
   border-color: #e3e3e3;
   border-radius: 10px;
   background-color: #ffffff;
-  -webkit-transition: border-color 400ms ease, box-shadow 400ms ease, -webkit-transform 400ms ease;
-  transition: border-color 400ms ease, box-shadow 400ms ease, -webkit-transform 400ms ease;
-  transition: transform 400ms ease, border-color 400ms ease, box-shadow 400ms ease;
-  transition: transform 400ms ease, border-color 400ms ease, box-shadow 400ms ease, -webkit-transform 400ms ease;
+  -webkit-transition: border-color 400ms ease, box-shadow 400ms ease,
+    -webkit-transform 400ms ease;
+  transition: border-color 400ms ease, box-shadow 400ms ease,
+    -webkit-transform 400ms ease;
+  transition: transform 400ms ease, border-color 400ms ease,
+    box-shadow 400ms ease;
+  transition: transform 400ms ease, border-color 400ms ease,
+    box-shadow 400ms ease, -webkit-transform 400ms ease;
   color: #151515;
   text-align: center;
   text-decoration: none;
@@ -9466,7 +9571,7 @@ figcaption {
 
 .work-card-heading-2 {
   margin: 16px 12px 4px;
-  font-family: 'Futura pt', sans-serif;
+  font-family: "Futura pt", sans-serif;
   color: #111111;
   text-align: center;
   letter-spacing: 1px;
@@ -9539,7 +9644,7 @@ figcaption {
 .d-109-top-text {
   margin-right: 5px;
   margin-left: 5px;
-  font-family: 'Futura pt', sans-serif;
+  font-family: "Futura pt", sans-serif;
   color: #111111;
   font-size: 18px;
   line-height: 33px;
@@ -9607,7 +9712,7 @@ figcaption {
 }
 
 .text-block-8 {
-  font-family: 'Futura pt', sans-serif;
+  font-family: "Futura pt", sans-serif;
   color: #111111;
   font-size: 16px;
 }
@@ -9627,7 +9732,7 @@ figcaption {
   width: 400px;
   float: right;
   background-color: #ffffff;
-  background-image: url('../images/grain-background.png');
+  background-image: url("../images/grain-background.png");
   background-position: 0px 0px;
   background-size: 50px;
 }
@@ -9734,7 +9839,6 @@ figcaption {
   width: 230px;
 }
 
-
 .test-wrapper {
   width: 250px;
 }
@@ -9755,7 +9859,7 @@ figcaption {
   z-index: 1;
   margin-right: 10px;
   margin-left: 20px;
-  font-family: 'Poppins', sans-serif;;
+  font-family: "Poppins", sans-serif;
   color: #e56161;
   font-size: 16px;
   font-weight: 400;
@@ -9774,7 +9878,7 @@ figcaption {
 .section-3 {
   width: 1000px;
   height: 100px;
-  background-image: url('../images/wave-7.svg');
+  background-image: url("../images/wave-7.svg");
   background-position: 0px 0px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -9836,14 +9940,14 @@ figcaption {
   font-style: normal;
   text-align: center;
   text-decoration: none;
-  font-family: 'Futura pt', sans-serif;
+  font-family: "Futura pt", sans-serif;
 }
 
 .footer-link-2 {
   display: block;
   margin-bottom: 10px;
   border: 1px none #000;
-  font-family: 'Poppins', sans-serif;;
+  font-family: "Poppins", sans-serif;
   color: #111111;
   font-size: 16px;
   text-align: center;
@@ -9885,27 +9989,27 @@ figcaption {
 }
 
 .text-block-11 {
-  font-family: 'Poppins', sans-serif;;
+  font-family: "Poppins", sans-serif;
   color: #111111;
   font-size: 16px;
   text-align: center;
 }
 
 .text-block-12 {
-  font-family: 'Poppins', sans-serif;;
+  font-family: "Poppins", sans-serif;
   color: #111111;
   font-size: 16px;
 }
 
 .text-block-13 {
-  font-family: 'Poppins', sans-serif;;
+  font-family: "Poppins", sans-serif;
   color: #111111;
   font-size: 16px;
   text-align: center;
 }
 
 .text-block-14 {
-  font-family: 'Poppins', sans-serif;;
+  font-family: "Poppins", sans-serif;
   color: #111111;
   font-size: 16px;
   text-align: center;
@@ -9956,7 +10060,13 @@ figcaption {
   width: 2px;
   height: 100%;
   border-radius: 2px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#ff416c), to(#ff4b2b));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#ff416c),
+    to(#ff4b2b)
+  );
   background-image: linear-gradient(180deg, #ff416c, #ff4b2b);
 }
 
@@ -10395,13 +10505,13 @@ figcaption {
 }
 
 .paragraph-3 {
-  font-family: 'Poppins', sans-serif;;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
 }
 
 .paragraph-4 {
   margin-bottom: 40px;
-  font-family: 'Poppins', sans-serif;;
+  font-family: "Poppins", sans-serif;
   color: #111111;
   font-size: 16px;
   line-height: 33px;
@@ -10440,7 +10550,7 @@ figcaption {
 .heading-10 {
   padding-top: 20px;
   color: #111111;
-  font-family: 'Futura pt', sans-serif;
+  font-family: "Futura pt", sans-serif;
 }
 
 .bold-text {
@@ -10490,7 +10600,7 @@ a {
 }
 
 .paragraph-6 {
-  font-family: 'Poppins', sans-serif;;
+  font-family: "Poppins", sans-serif;
   color: #111111;
   font-size: 16px;
   line-height: 33px;
@@ -10498,7 +10608,7 @@ a {
 
 .paragraph-7 {
   margin-bottom: 10px;
-  font-family: 'Poppins', sans-serif;;
+  font-family: "Poppins", sans-serif;
   color: #111111;
   font-size: 16px;
   line-height: 33px;
@@ -10551,7 +10661,7 @@ a {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  font-family: 'Poppins', sans-serif;;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
 }
 
@@ -10578,7 +10688,7 @@ a {
   border-radius: 7px;
   background-color: #fff;
   box-shadow: 3px 3px 3px 0 #d1d1d1;
-  font-family: 'Poppins', sans-serif;;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   text-align: left;
 }
@@ -10619,14 +10729,14 @@ a {
 }
 
 .paragraph-9 {
-  font-family: 'Poppins', sans-serif;;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   line-height: 33px;
 }
 
 .paragraph-10 {
   margin-bottom: 40px;
-  font-family: 'Poppins', sans-serif;;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   line-height: 33px;
 }
@@ -10638,7 +10748,7 @@ a {
   border-radius: 20px;
   background-color: #fff;
   box-shadow: 1px 1px 3px 0 #666;
-  font-family: 'Poppins', sans-serif;;
+  font-family: "Poppins", sans-serif;
   color: #111111;
   font-size: 16px;
 }
@@ -10652,7 +10762,7 @@ a {
   border: 15px none transparent;
   border-radius: 0px;
   background-color: transparent;
-  font-family: 'Futura pt', sans-serif;
+  font-family: "Futura pt", sans-serif;
   color: #111111;
   font-size: 18px;
   letter-spacing: 1px;
@@ -10701,7 +10811,7 @@ a {
   /* padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 0px; */
-  font-family: 'Poppins', sans-serif;;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   line-height: 33px;
   text-align: center;
@@ -10730,7 +10840,7 @@ a {
 }
 
 .text-span-10 {
-  font-family: 'Futura pt', sans-serif;
+  font-family: "Futura pt", sans-serif;
   font-size: 16px;
   text-transform: uppercase;
 }
@@ -10738,27 +10848,27 @@ a {
 .paragraph-11 {
   margin-top: 0px;
   margin-bottom: 20px;
-  font-family: 'Poppins', sans-serif;;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   line-height: 33px;
 }
 
 .list-item {
   margin-bottom: 20px;
-  font-family: 'Poppins', sans-serif;;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   line-height: 33px;
 }
 
 .list-item-2 {
   margin-bottom: 20px;
-  font-family: 'Poppins', sans-serif;;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
 }
 
 .paragraph-12 {
   margin-top: 60px;
-  font-family: 'Poppins', sans-serif;;
+  font-family: "Poppins", sans-serif;
   color: #111111;
   font-size: 16px;
   line-height: 33px;
@@ -10766,20 +10876,20 @@ a {
 
 .list-item-3 {
   margin-bottom: 20px;
-  font-family: 'Poppins', sans-serif;;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   line-height: 33px;
 }
 
 .block-quote {
   margin-left: 20px;
-  font-family: 'Poppins', sans-serif;;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
 }
 
 .block-quote-2 {
   margin-left: 20px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
 }
 
@@ -10804,7 +10914,7 @@ a {
 }
 
 .paragraph-13 {
-  font-family: 'Poppins', sans-serif;;
+  font-family: "Poppins", sans-serif;
   color: #111111;
   font-size: 16px;
   line-height: 33px;
@@ -10824,7 +10934,7 @@ a {
 }
 
 .paragraph-14 {
-  font-family: 'Poppins', sans-serif;;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   line-height: 33px;
 }
@@ -10853,21 +10963,21 @@ a {
 }
 
 .paragraph-15 {
-  font-family: 'Poppins', sans-serif;;
+  font-family: "Poppins", sans-serif;
   color: #111111;
   font-size: 16px;
   line-height: 33px;
 }
 
 .paragraph-16 {
-  font-family: 'Poppins', sans-serif;;
+  font-family: "Poppins", sans-serif;
   color: #111111;
   font-size: 16px;
   line-height: 33px;
 }
 
 .paragraph-17 {
-  font-family: 'Poppins', sans-serif;;
+  font-family: "Poppins", sans-serif;
   color: #111111;
   font-size: 16px;
   line-height: 33px;
@@ -10878,7 +10988,6 @@ a {
 
 .image-11 {
   width: 600px;
-
 }
 
 .div-block-13 {
@@ -10895,7 +11004,7 @@ a {
   width: 400px;
   margin-bottom: 100px;
   float: left;
-  font-family: 'Poppins', sans-serif;;
+  font-family: "Poppins", sans-serif;
   color: #111111;
   font-size: 16px;
   line-height: 33px;
@@ -10922,7 +11031,7 @@ a {
 
 .paragraph-19 {
   width: 400px;
-  font-family: 'Poppins', sans-serif;;
+  font-family: "Poppins", sans-serif;
   color: #111111;
   font-size: 16px;
   line-height: 33px;
@@ -10933,7 +11042,7 @@ a {
 }
 
 .paragraph-20 {
-  font-family: 'Poppins', sans-serif;;
+  font-family: "Poppins", sans-serif;
   color: #111111;
   font-size: 16px;
   line-height: 33px;
@@ -10944,7 +11053,7 @@ a {
 }
 
 .paragraph-21 {
-  font-family: 'Poppins', sans-serif;;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   line-height: 33px;
 }
@@ -10968,7 +11077,7 @@ a {
 }
 
 .paragraph-22 {
-  font-family: 'Poppins', sans-serif;;
+  font-family: "Poppins", sans-serif;
   color: #111111;
   font-size: 16px;
   line-height: 33px;
@@ -10978,7 +11087,7 @@ a {
   margin-top: 40px;
   margin-bottom: 40px;
   background-color: transparent;
-  font-family: 'Poppins', sans-serif;;
+  font-family: "Poppins", sans-serif;
   color: #111111;
   font-size: 16px;
   line-height: 33px;
@@ -10990,7 +11099,7 @@ a {
 } */
 
 .paragraph-24 {
-  font-family: 'Poppins', sans-serif;;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   line-height: 32px;
 }
@@ -11001,17 +11110,17 @@ a {
 }
 
 .paragraph-25 {
-  font-family: 'Poppins', sans-serif;;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   line-height: 33px;
 }
 
 .paragraph-26 {
-  font-family: 'Poppins', sans-serif;;
+  font-family: "Poppins", sans-serif;
 }
 
 .paragraph30 {
-  font-family: 'Poppins', sans-serif;;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   line-height: 33px;
 }
@@ -11022,13 +11131,13 @@ a {
 }
 
 .paragraph-27 {
-  font-family: 'Poppins', sans-serif;;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   line-height: 33px;
 }
 
 .paragraph-28 {
-  font-family: 'Poppins', sans-serif;;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   line-height: 33px;
 }
@@ -11240,7 +11349,13 @@ a {
     padding-right: 0px;
     padding-bottom: 0px;
     border-radius: 2px;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#ff416c), to(#ff4b2b));
+    background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(#ff416c),
+      to(#ff4b2b)
+    );
     background-image: linear-gradient(180deg, #ff416c, #ff4b2b);
   }
 
@@ -11332,7 +11447,7 @@ a {
 }
 
 @media screen and (max-width: 991px) {
-  #portrait{
+  #portrait {
     display: none;
   }
   .main-grid.margin-bottom {
@@ -11355,11 +11470,11 @@ a {
     height: 50vh;
   }
 
-  .image-4{
+  .image-4 {
     width: 80px;
   }
 
-  #hand{
+  #hand {
     display: none;
   }
 
@@ -13142,11 +13257,10 @@ a {
     font-size: 25px;
   }
 
-  .section.about-me{
+  .section.about-me {
     padding: 0 10%;
     margin-top: 30px;
   }
-
 
   h4 {
     margin-bottom: 8px;
@@ -13196,7 +13310,7 @@ a {
     -ms-flex-align: center;
     align-items: center;
     background-color: #ffffff;
-    background-image: url('../images/grain-background.png');
+    background-image: url("../images/grain-background.png");
     background-position: 50% 50%;
     background-size: 50px;
     background-repeat: repeat;
@@ -14201,7 +14315,7 @@ a {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
     -o-object-fit: fill;
     object-fit: fill;
-    background-image: url('../images/mockups_kaus.png');
+    background-image: url("../images/mockups_kaus.png");
   }
 
   .cards-section {
@@ -14359,7 +14473,7 @@ a {
   }
 }
 
-@media screen and (min-width: 1260px) and (max-width: 1370px) { 
+@media screen and (min-width: 1260px) and (max-width: 1370px) {
   .main-grid.margin-bottom {
     margin-left: 0%;
   }
@@ -14381,8 +14495,8 @@ a {
   }
 }
 
-@media screen and (min-width: 480px) and (max-width: 665px) { 
-  .section{
+@media screen and (min-width: 480px) and (max-width: 665px) {
+  .section {
     height: 2890px;
   }
 
@@ -14425,7 +14539,7 @@ a {
 
 @media screen and (max-width: 479px) {
   h2 {
-    font-family: 'Futura pt', sans-serif;
+    font-family: "Futura pt", sans-serif;
     color: #111111;
     font-size: 16px;
     letter-spacing: 1px;
@@ -14452,15 +14566,15 @@ a {
   }
 
   .image-4 {
-  width: 75px;
+    width: 75px;
   }
 
-#hand{
-  display: none;
-}
+  #hand {
+    display: none;
+  }
 
   h4 {
-    font-family: 'Futura pt', sans-serif !important;
+    font-family: "Futura pt", sans-serif !important;
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 1px;
@@ -14504,12 +14618,12 @@ a {
     height: auto;
   }
 
-  .w-container{
+  .w-container {
     margin: 0px;
     width: 93%;
   }
 
- .navbar{
+  .navbar {
     width: 100%;
     padding: 0 5%;
   }
@@ -14522,7 +14636,7 @@ a {
     padding-top: 40px;
     padding-left: 0px;
     background-color: #ffffff;
-    background-image: url('../images/grain-background.png');
+    background-image: url("../images/grain-background.png");
     background-position: 0px 0px;
     background-size: 50px;
     background-repeat: repeat;
@@ -15586,7 +15700,7 @@ a {
   }
 
   .work-heading {
-    font-family: 'Futura pt', sans-serif;
+    font-family: "Futura pt", sans-serif;
     color: #111111;
     font-size: 24px;
   }
@@ -15638,7 +15752,6 @@ a {
   .promo-layout-side.right {
     right: 1%;
   }
-
 
   .heading-2 {
     bottom: 0px;
@@ -15820,7 +15933,7 @@ a {
 
   .menu-button-2.w--open {
     background-color: #ffffff;
-    background-image: url('../images/grain-background.png');
+    background-image: url("../images/grain-background.png");
     background-position: 0px 0px;
     background-size: 50px;
   }
@@ -15913,7 +16026,7 @@ a {
   }
 
   .work-heading-2 {
-    font-family: 'Futura pt', sans-serif;
+    font-family: "Futura pt", sans-serif;
     color: #111111;
     font-size: 24px;
   }
@@ -16728,7 +16841,7 @@ a {
     height: 50vh;
   }
 
-  #hand{
+  #hand {
     display: none;
   }
 
@@ -16946,15 +17059,15 @@ a {
 }
 
 @font-face {
-  font-family: 'Futura pt';
-  src: url('../fonts/futura-pt-medium.otf') format('opentype');
+  font-family: "Futura pt";
+  src: url("../fonts/futura-pt-medium.otf") format("opentype");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Neutratext book';
-  src: url('../fonts/NeutraText-Book.otf') format('opentype');
+  font-family: "Neutratext book";
+  src: url("../fonts/NeutraText-Book.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -16983,7 +17096,7 @@ a {
 .carousel-cell a {
   height: 400px;
   width: 100%;
-  display: flex; 
+  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -16997,11 +17110,11 @@ a {
   width: 75%;
 }
 
-.print-with-me a{
+.print-with-me a {
   display: flex;
   justify-content: center;
 }
 
-.print-with-me a img{
+.print-with-me a img {
   width: 60%;
 }
